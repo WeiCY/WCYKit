@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'WCYKit_Example' do
-  pod 'WCYKit', :path => '../'
+  pod 'WCYKit'
 
   target 'WCYKit_Tests' do
     inherit! :search_paths

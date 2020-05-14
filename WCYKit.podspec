@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'WeiCY' => 'weicy@citydo.com.cn' }
-  s.source           = { :git => 'https://github.com/1690014290@qq.com/WCYKit.git', :tag => s.version }
+  s.source           = { :git => 'https://github.com/WeiCY/WCYKit.git', :tag => s.version }
   s.social_media_url = 'https://www.cnblogs.com/weicyNo-1/'
 
   s.ios.deployment_target = '9.0'
