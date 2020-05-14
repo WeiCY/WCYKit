@@ -1,0 +1,22 @@
+{
+  "name": "WCYKit",
+  "version": "0.1.0",
+  "summary": "A short description of WCYKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1690014290@qq.com/WCYKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1690014290@qq.com": "weicy@citydo.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/1690014290@qq.com/WCYKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WCYKit/Classes/**/*"
+}

@@ -8,27 +8,21 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WCYKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WCYKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.1.2'
+  s.summary          = 'A fairly complete class of common tools and extensions tool'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+                        'In development, we often package some commonly used tools and extensions to improve the development speed, this is my recent years in different project development commonly used features of some summary, including commonly used tool classes and extensions, similar to YYKit, but I feel that he is too functional, and it does not have some common tool class encapsulation. So I sorted out and summarized the common features and tools I encountered in my daily development, and that is the WCYKit now.'
+                        DESC
 
-  s.homepage         = 'https://github.com/1690014290@qq.com/WCYKit'
+  s.homepage         = 'https://github.com/WeiCY/WCYKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '1690014290@qq.com' => 'weicy@citydo.com.cn' }
-  s.source           = { :git => 'https://github.com/1690014290@qq.com/WCYKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'WeiCY' => 'weicy@citydo.com.cn' }
+  s.source           = { :git => 'https://github.com/1690014290@qq.com/WCYKit.git', :tag => s.version }
+  s.social_media_url = 'https://www.cnblogs.com/weicyNo-1/'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'WCYKit/Classes/**/*'
   
