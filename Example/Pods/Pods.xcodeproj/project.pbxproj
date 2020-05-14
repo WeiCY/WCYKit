@@ -64,7 +64,6 @@
 		7B462BDB5D5498AEE43DE99B35B0C8B2 /* NSArray+WCYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D037FAC4A78EA361558CA5497CB964CD /* NSArray+WCYAdd.m */; };
 		7D1B0427223555F301EE738E94A21B1E /* WCYKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E6456E6A529BC57DCCA562D0250CC2E /* WCYKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80E1D92057E4FBB304BF1675CAFCDCEF /* NSData+WCYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EB2B3B15A81B130FCC197E01C099C8 /* NSData+WCYAdd.m */; };
-		815A8AB8A19B8E12453A3A9ED8F1AEF2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D88E7EA0F927DEC60AA8A1E65CB9C1 /* ReplaceMe.m */; };
 		81B9102DF4C56B5E552815BFD3241D3C /* WCYSystemSound.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFAF479C9D98DBBAE2CDB4B9976EC14 /* WCYSystemSound.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8585F00B1C37F2A2D82C77CE9E368BFA /* WCYGCDTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3638CF692A9B8D9AD7EA99F8ECE078B1 /* WCYGCDTimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D4AF6F93FDB6FDCD67158A54B184A24 /* UIColor+WCYAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 398B9BF1EC16CC05716E70699B50173D /* UIColor+WCYAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -122,7 +121,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004AA094B1AC8B3D93BF4D79965AD704 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		004AA094B1AC8B3D93BF4D79965AD704 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		040B8116CD6A0B76A55B4414421DEE20 /* UIImage+WCYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WCYAdd.m"; sourceTree = "<group>"; };
 		0421D62A7113D3EDBEBD33070E56B2FB /* UIView+Toast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		042C1BC71229D9120D4F34D67154ABC9 /* UIButton+WCYCountDown.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WCYCountDown.m"; sourceTree = "<group>"; };
@@ -163,8 +162,7 @@
 		4DC1A4844AA43A87030249A3648D1107 /* WCYSystemSound.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCYSystemSound.m; sourceTree = "<group>"; };
 		4F67842A50F923FA5F8859D779A0FD16 /* UIImage+WCYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+WCYAdd.h"; sourceTree = "<group>"; };
 		4FD49039EC5AE36EFB5410AC76CC0F65 /* WCYDataPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCYDataPicker.h; sourceTree = "<group>"; };
-		52E43164A49F0138074F4CC57FFBC285 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		55D88E7EA0F927DEC60AA8A1E65CB9C1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WCYKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		52E43164A49F0138074F4CC57FFBC285 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		56E7EF8E8806DC45EFE46A4C8B794192 /* UIButton+WCYBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WCYBadge.m"; sourceTree = "<group>"; };
 		57A5037984F74EF9E474EF2A50CF53B1 /* NSDate+WCYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WCYAdd.m"; sourceTree = "<group>"; };
 		58C0E93E5A9A8AFF25094589ACAFE845 /* UIText+WCYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIText+WCYAdd.h"; sourceTree = "<group>"; };
@@ -176,8 +174,8 @@
 		64EB2B3B15A81B130FCC197E01C099C8 /* NSData+WCYAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+WCYAdd.m"; sourceTree = "<group>"; };
 		66230763FE22C4951AF94D48A5110081 /* Pods-WCYKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WCYKit_Tests.modulemap"; sourceTree = "<group>"; };
 		6ABC312DDA1CE176B42AFEC7438D0F8A /* WCYWeChatActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCYWeChatActionSheet.m; sourceTree = "<group>"; };
-		6D9B366DBF1EE7507A6E538DFC6365D0 /* WCYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCYKit.framework; path = WCYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E648E10242E7D121FEA38D7D967C4E1 /* WCYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WCYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6D9B366DBF1EE7507A6E538DFC6365D0 /* WCYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E648E10242E7D121FEA38D7D967C4E1 /* WCYKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WCYKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		707CC3FB5C07A429131DA2AF40C73EC9 /* WCYKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCYKit-prefix.pch"; sourceTree = "<group>"; };
 		70D7F1C810E0D36843A16063DCEA935A /* Pods-WCYKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCYKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7230AAFF7B3B29BF84B5FE6E5338B6F9 /* UIButton+WCYButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WCYButton.m"; sourceTree = "<group>"; };
@@ -194,11 +192,11 @@
 		940718251F013E6C19A6FB1F2AADC3A4 /* NSNumber+WCYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+WCYAdd.h"; sourceTree = "<group>"; };
 		9518B92E1DEEF7CDC214FA58FDBB5BEA /* NSString+WCYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+WCYAdd.h"; sourceTree = "<group>"; };
 		965041F6EF74F74C0BA5339231375397 /* NSDictionary+WCYAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+WCYAdd.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F0B4138C0AB783C0FAE446BE22694DF /* Pods_WCYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WCYKit_Example.framework; path = "Pods-WCYKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0B4138C0AB783C0FAE446BE22694DF /* Pods_WCYKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCYKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03AE7B634F2B1693D8D5221E5C07D34 /* Pods-WCYKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCYKit_Example-Info.plist"; sourceTree = "<group>"; };
 		A0B8D765603D57A4806236EB93DCE757 /* WCYWaveProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WCYWaveProgressView.h; sourceTree = "<group>"; };
-		A1EC46644FBC6BA255996340B321253F /* Pods_WCYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WCYKit_Tests.framework; path = "Pods-WCYKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EC46644FBC6BA255996340B321253F /* Pods_WCYKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCYKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E5B7C44196B97B8ABA0D7B39B7C5C8 /* WCYKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCYKit-Info.plist"; sourceTree = "<group>"; };
 		A4E5BAC1D7BF1EBA928D58EA87E2634D /* Pods-WCYKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WCYKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8F659F72614D76CC13CA6FC08D4C592 /* WCYWindowBubble.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WCYWindowBubble.m; sourceTree = "<group>"; };
@@ -291,7 +289,6 @@
 				9518B92E1DEEF7CDC214FA58FDBB5BEA /* NSString+WCYAdd.h */,
 				4418DC0389ABB90141921CF118402CB2 /* NSString+WCYAdd.m */,
 			);
-			name = Foundation;
 			path = Foundation;
 			sourceTree = "<group>";
 		};
@@ -365,7 +362,6 @@
 				FDDB3BE5D6626C790461B98B877C7876 /* UIViewController+WCYImagePicker.h */,
 				F9C0ED9804BA3FE9E061DD65F40C0725 /* UIViewController+WCYImagePicker.m */,
 			);
-			name = UIKit;
 			path = UIKit;
 			sourceTree = "<group>";
 		};
@@ -429,7 +425,6 @@
 		AAC03CD8030091BEB738C1E7FCC4B819 /* WCYKit */ = {
 			isa = PBXGroup;
 			children = (
-				55D88E7EA0F927DEC60AA8A1E65CB9C1 /* ReplaceMe.m */,
 				915D3CA701009D3D1C2D8D5B82F4ABFA /* WCYDefines.h */,
 				40FFAD544AD931E830DDD89F238701B0 /* WCYKitHeader.h */,
 				1D791C5569D613001EEE47E3F60AB6F1 /* Pod */,
@@ -709,7 +704,6 @@
 				24C3102FF7EAFFEF5337D4AC3A65A226 /* NSObject+Addtion.m in Sources */,
 				A333209583C8B28522C147E36D0B5E10 /* NSObject+KVO.m in Sources */,
 				262733A4A5CCBD95CBF88B4EF4A50435 /* NSString+WCYAdd.m in Sources */,
-				815A8AB8A19B8E12453A3A9ED8F1AEF2 /* ReplaceMe.m in Sources */,
 				03584091A67EC873EF2EEB14D1C07D23 /* UIAlertController+Blocks.m in Sources */,
 				60F6AB0E70533689D49B69742A805630 /* UIApplication+WCYAdd.m in Sources */,
 				CF4E75FC84AFC127A08F3BD834846DB6 /* UIBarButtonItem+WCYBadge.m in Sources */,
@@ -833,8 +827,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
