@@ -15,7 +15,7 @@
 ### 如何使用
 
 * 手动下载拖入工程中
-* 通过cocoapods导入 ```pod WCYKit```
+* 通过cocoapods导入 ```pod 'WCYKit' ```
 
 ### 整体结构
 
