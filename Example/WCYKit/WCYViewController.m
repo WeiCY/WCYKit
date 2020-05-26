@@ -9,7 +9,7 @@
 #import "WCYViewController.h"
 #import "WCYDemoViewController.h"
 
-#import <WCYKitHeader.h>
+#import <WCYKit/WCYKitHeader.h>
 
 @interface WCYViewController ()
 

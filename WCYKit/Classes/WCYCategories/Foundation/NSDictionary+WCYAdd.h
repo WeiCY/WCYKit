@@ -29,4 +29,5 @@
 - (BOOL)isEmpty;
 
 + (NSString *)convertToJsonData:(NSDictionary *)dict;
+
 @end
