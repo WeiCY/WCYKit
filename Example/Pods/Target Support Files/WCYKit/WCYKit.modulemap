@@ -1,6 +1,0 @@
-framework module WCYKit {
-  umbrella header "WCYKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

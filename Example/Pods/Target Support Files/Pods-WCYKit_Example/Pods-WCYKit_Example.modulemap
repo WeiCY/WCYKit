@@ -1,6 +1,0 @@
-framework module Pods_WCYKit_Example {
-  umbrella header "Pods-WCYKit_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
