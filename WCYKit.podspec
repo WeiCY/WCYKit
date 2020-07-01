@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WCYKit'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'A fairly complete class of common tools and extensions tool'
 
   s.description      = <<-DESC

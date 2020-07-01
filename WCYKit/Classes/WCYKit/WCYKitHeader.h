@@ -22,6 +22,7 @@
 #import "WCYRegularExpression.h"
 #import "WCYWindowBubble.h"
 #import "WCYGCDTimerManager.h"
+#import "WCYEncryptTool.h"
 
 // 扩展文件
 #import "WCYCategoriesHeader.h"
